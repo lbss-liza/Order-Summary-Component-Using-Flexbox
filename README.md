@@ -25,7 +25,7 @@ Users should be able to:
 /design/mobile-view.png
 
 ## Links
-- Live Site url - 
+- Live Site url - https://lbss-liza.github.io/Order-Summary-Component-Using-Flexbox/
 
 ## My process
 1. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
