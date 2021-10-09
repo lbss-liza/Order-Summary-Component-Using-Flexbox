@@ -1,0 +1,104 @@
+  body {
+    background-color: hsl(225, 100%, 94%);
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weights: 500, 700, 900;
+  }
+  .background-image img {
+    width: 100%;
+    height: 300px;
+  }
+  h2 {
+    font-weight: 900;
+  }
+  h4 {
+    margin: 0;
+    padding: 0;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+  }
+  .container {
+    width: 30%;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -250px;
+    position: relative;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    filter:drop-shadow(4px 0 20px hsl(224, 23%, 55%));
+  }
+  .container img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+  }
+  .container p {
+    color: hsl(224, 23%, 55%);
+  }
+  .order-text {
+    padding: 0 20px;
+  }
+  .change-price {
+    padding-left: 60px;
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+  }
+  .change-price:hover {
+    color: hsl(245, 75%, 52%);
+  }
+  .flex-container img {
+    width: 100%;
+  }
+  .flex-container {
+    display: flex;
+    background-color: hsl(225, 100%, 98%);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
+  .flex-container div {
+    margin: 10px;
+  }
+.price {
+  margin: 0;
+  padding: 0;
+}
+.btn {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  background-color: hsl(245, 75%, 52%);
+  width: 90%;
+  color: #fff;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  filter:drop-shadow(0 8px 8px hsl(224, 23%, 55%));
+}
+.btn:hover {
+  background-color: hsl(224, 23%, 55%);
+}
+.order-cancel {
+  font-size: 14px;
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
+}
+.order-cancel:hover {
+  color: hsl(223, 47%, 23%);
+}
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
+
+/* Media screen */
+@media (min-width: 375px) and (max-width: 768px) {
+  .background-image img {
+    height: 250px;
+  }
+  .container {
+    margin-top: -200px;
+    width: 90%;
+}
+}
